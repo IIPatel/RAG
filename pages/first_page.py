@@ -8,7 +8,7 @@ from langchain.vectorstores import Clarifai
 from langchain.chains import RetrievalQA
 from clarifai.modules.css import ClarifaiStreamlitCSS
 
-st.title("🦜 Chat with your PDF Files")
+st.title("Chat with your PDF Files")
 
 ClarifaiStreamlitCSS.insert_default_css(st)
 
