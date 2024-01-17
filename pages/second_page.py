@@ -7,8 +7,8 @@ from langchain.vectorstores import Clarifai
 from langchain.chains import RetrievalQA
 from clarifai.modules.css import ClarifaiStreamlitCSS
 
-st.set_page_config(page_title="Chat with Documents", page_icon="🦜")
-st.title("🦜 RAG with Clarifai and Langchain")
+st.set_page_config(page_title="Chat with Documents", page_icon="m")
+st.title("RAG with Clarifai and Langchain")
 
 ClarifaiStreamlitCSS.insert_default_css(st)
 
